@@ -74,12 +74,6 @@ def find_best_move(board):
 
     return best_move
 
-# Example Tic-Tac-Toe board
-board = [
-    ['X', 'O', 'X'],
-    ['O', 'O', '_'],
-    ['_', '_', 'X']
-]
 
 best_move = find_best_move(board)
 print(f"Best move for 'X': {best_move}")
